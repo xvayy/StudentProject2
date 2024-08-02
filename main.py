@@ -15,4 +15,4 @@ for filepath in filepaths:
     pdf.cell(w=50, h=8, txt=filename.title())
     print(filename)
     print(type(filename))
-    pdf.output(f"PDFs/{filename}.pdf")
+pdf.output(f"PDFs/output.pdf")
